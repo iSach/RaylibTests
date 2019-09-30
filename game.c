@@ -43,7 +43,7 @@ int main(void) {
 
     const int min_y = screenHeight - 110;
 
-    int hitboxes_amount = 3;
+    int hitboxes_amount = 4;
 
     Hitbox *hitboxes = malloc(hitboxes_amount * sizeof(Hitbox));
     hitboxes[0].x = 751;
@@ -59,10 +59,16 @@ int main(void) {
     hitboxes[1].name = "ground";
 
     hitboxes[2].x = 589;
-    hitboxes[2].y = 326;
-    hitboxes[2].height = 35;
+    hitboxes[2].y = 324;
+    hitboxes[2].height = 37;
     hitboxes[2].width = 41;
-    hitboxes[2].name = "ground";
+    hitboxes[2].name = "box_1";
+
+    hitboxes[3].x = 834;
+    hitboxes[3].y = 180;
+    hitboxes[3].height = 38;
+    hitboxes[3].width = 41;
+    hitboxes[3].name = "box_2";
 
     Hitbox mario_hitbox;
     mario_hitbox.width = mario.width;
