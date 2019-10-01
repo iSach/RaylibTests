@@ -114,6 +114,7 @@ int main(void) {
                     if (mario.on_ground) mario.on_ground = false;
                 }
 
+
                 if ((h.y < mario.y && mario.y < h.y + h.height) ||
                     (h.y < mario.y + mario.height && mario.y + mario.height < h.y + h.height)) {
                     // Left
