@@ -3,6 +3,7 @@
 
 #endif //UNTITLED1_GAME_H
 
+
 #define JUMP_VALUE 18
 #define MARIO_HEIGHT 50
 #define MARIO_WIDTH 40
